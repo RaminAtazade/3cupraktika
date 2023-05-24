@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.firstnav {
+    background-color: rgb(253, 253, 253);
+    box-shadow: 1px 1px 5px 1px  grey;
+}
+.firstnav ul {
+    display: flex;
+    height: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.firstnav h1 {
+    width: 260px;
+    font-size: 20px;
+}
+.textstyle1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#logoimg {
+    position: absolute;
+    left: 43%;
+}
+
+#logoname {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-23%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#contactnum{
+    position: absolute;
+    transform: translateX(280px);
+}
+#contact{
+ height: 100%;
+   background-color: rgb(214, 211, 21);
+}
+.secondnav{
+    height: 50px;
+}
+.secondnav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    padding-left: 180px;
+    padding-right: 190px;
+    padding-top: 1%;
+}
+li{
+  
+}
+.firstpart{
+    display: inline;
+
+}
+#firstpartpic{
+    position: relative;
+}
+#firstparttext{
+    position: absolute;
+    transform: translateY(-250px)translateX(500px) scale(1.6);
+}
+#firstparttext h1{
+    font-size: 20px;
+}
+
+.whitetextstyle {
+    text-shadow: 1.5px 1.5px   black;
+   color: rgba(233, 238, 240, 0.897);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.secondpart ul h1{
+    display: flex;
+    justify-content: center;
+}
+.secondpart ul p{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 8%;
+}
+.card{
+
+    width: 270;
+    height: 230;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 9px 5px 3px red;
+}
+.card img{
+    width: 80px;
+}
+.trainercard{
+    background-image: url(https://m.media-amazon.com/images/I/61mGDIukGxS._AC_SX679_.jpg);
+    width: 330px;
+    height: 170px;
+    background-size: cover;
+    position: relative;
+}
+.trainercard p{
+    background-color: rgb(187, 59, 27);
+    color: aliceblue;
+    width: 130px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transform:translateX(20px)translateY(130px)
+}
+.thirdpart{
+    display: grid;
+    grid-template-columns: repeat(3,330px); 
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.trainercard{
+   
+    margin: 10px;
+}
+
